@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1F461E6F4658A7E995FF7FA3 /* libPods-YueyaVillage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */; };
+		6BA59DFB2247CF1F00D78A78 /* CYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA59DFA2247CF1E00D78A78 /* CYLoginViewController.m */; };
+		6BE47404224BBD8B00C9FC2C /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47403224BBD8B00C9FC2C /* TencentOpenAPI.framework */; };
+		6BE47406224BBDD600C9FC2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47405224BBDD600C9FC2C /* SystemConfiguration.framework */; };
+		6BE4740C224BC0E900C9FC2C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE4740B224BC0E900C9FC2C /* Security.framework */; };
+		6BE4740E224BC0FE00C9FC2C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE4740D224BC0FE00C9FC2C /* libiconv.tbd */; };
+		6BE47410224BC10800C9FC2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE4740F224BC10700C9FC2C /* CoreGraphics.framework */; };
+		6BE47412224BC11200C9FC2C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47411224BC11100C9FC2C /* libsqlite3.tbd */; };
+		6BE47414224BC11B00C9FC2C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47413224BC11B00C9FC2C /* CoreTelephony.framework */; };
+		6BE47416224BC13400C9FC2C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47415224BC13400C9FC2C /* libz.tbd */; };
+		6BE47418224BC18B00C9FC2C /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE47417224BC18B00C9FC2C /* libz.1.1.3.tbd */; };
 		B458505A223CF05B0059717F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4585059223CF05B0059717F /* AppDelegate.m */; };
 		B4585060223CF05B0059717F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B458505E223CF05B0059717F /* Main.storyboard */; };
 		B4585062223CF05E0059717F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4585061223CF05E0059717F /* Assets.xcassets */; };
@@ -44,6 +54,17 @@
 /* Begin PBXFileReference section */
 		39CFF44CD8FA4294025481E2 /* Pods-YueyaVillage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueyaVillage.release.xcconfig"; path = "Target Support Files/Pods-YueyaVillage/Pods-YueyaVillage.release.xcconfig"; sourceTree = "<group>"; };
 		51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YueyaVillage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA59DF92247CF1E00D78A78 /* CYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLoginViewController.h; sourceTree = "<group>"; };
+		6BA59DFA2247CF1E00D78A78 /* CYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLoginViewController.m; sourceTree = "<group>"; };
+		6BE47403224BBD8B00C9FC2C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		6BE47405224BBDD600C9FC2C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6BE4740B224BC0E900C9FC2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6BE4740D224BC0FE00C9FC2C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		6BE4740F224BC10700C9FC2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BE47411224BC11100C9FC2C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6BE47413224BC11B00C9FC2C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6BE47415224BC13400C9FC2C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6BE47417224BC18B00C9FC2C /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		ADD42230E8E2A64314B08DAD /* Pods-YueyaVillage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueyaVillage.debug.xcconfig"; path = "Target Support Files/Pods-YueyaVillage/Pods-YueyaVillage.debug.xcconfig"; sourceTree = "<group>"; };
 		B4585055223CF05B0059717F /* YueyaVillage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueyaVillage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4585058223CF05B0059717F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,7 +102,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE47418224BC18B00C9FC2C /* libz.1.1.3.tbd in Frameworks */,
+				6BE47416224BC13400C9FC2C /* libz.tbd in Frameworks */,
+				6BE47414224BC11B00C9FC2C /* CoreTelephony.framework in Frameworks */,
+				6BE47412224BC11200C9FC2C /* libsqlite3.tbd in Frameworks */,
+				6BE47410224BC10800C9FC2C /* CoreGraphics.framework in Frameworks */,
+				6BE4740E224BC0FE00C9FC2C /* libiconv.tbd in Frameworks */,
+				6BE4740C224BC0E900C9FC2C /* Security.framework in Frameworks */,
+				6BE47406224BBDD600C9FC2C /* SystemConfiguration.framework in Frameworks */,
 				1F461E6F4658A7E995FF7FA3 /* libPods-YueyaVillage.a in Frameworks */,
+				6BE47404224BBD8B00C9FC2C /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +132,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BA59DF52247CEBC00D78A78 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6BA59DF62247CED200D78A78 /* Controller */,
+				6BA59DF72247CEDD00D78A78 /* View */,
+				6BA59DF82247CEE100D78A78 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6BA59DF62247CED200D78A78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BA59DF92247CF1E00D78A78 /* CYLoginViewController.h */,
+				6BA59DFA2247CF1E00D78A78 /* CYLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BA59DF72247CEDD00D78A78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BA59DF82247CEE100D78A78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8656EEC2CDCD032C873272C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +177,14 @@
 		A9228C437046CBE0171B25E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6BE47417224BC18B00C9FC2C /* libz.1.1.3.tbd */,
+				6BE47415224BC13400C9FC2C /* libz.tbd */,
+				6BE47413224BC11B00C9FC2C /* CoreTelephony.framework */,
+				6BE47411224BC11100C9FC2C /* libsqlite3.tbd */,
+				6BE4740F224BC10700C9FC2C /* CoreGraphics.framework */,
+				6BE4740D224BC0FE00C9FC2C /* libiconv.tbd */,
+				6BE4740B224BC0E900C9FC2C /* Security.framework */,
+				6BE47405224BBDD600C9FC2C /* SystemConfiguration.framework */,
 				51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */,
 			);
 			name = Frameworks;
@@ -174,6 +245,7 @@
 				B458508D223CF32F0059717F /* Base */,
 				B458509A223CF5280059717F /* Account */,
 				B458508F223CF37A0059717F /* Home */,
+				6BA59DF52247CEBC00D78A78 /* Login */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -276,6 +348,7 @@
 		B4585098223CF47D0059717F /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				6BE47403224BBD8B00C9FC2C /* TencentOpenAPI.framework */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -512,6 +585,7 @@
 				B458505A223CF05B0059717F /* AppDelegate.m in Sources */,
 				B45850A0223CF6150059717F /* CYTabBarController.m in Sources */,
 				B45850AA223CF7A40059717F /* CYConst.m in Sources */,
+				6BA59DFB2247CF1F00D78A78 /* CYLoginViewController.m in Sources */,
 				B45850A6223CF6EF0059717F /* CYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,7 +759,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 986H8EK8V9;
+				DEVELOPMENT_TEAM = D5KC7ATQRC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YueyaVillage/Classes/Base/Lib",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueyaVillage/Supporting Files/YueyaVillage.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YueyaVillage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
@@ -705,7 +783,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 986H8EK8V9;
+				DEVELOPMENT_TEAM = D5KC7ATQRC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YueyaVillage/Classes/Base/Lib",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueyaVillage/Supporting Files/YueyaVillage.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YueyaVillage/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
