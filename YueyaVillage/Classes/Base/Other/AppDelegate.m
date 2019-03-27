@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import "CYTabBarController.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
 
-@interface AppDelegate ()
+@interface AppDelegate () <TencentSessionDelegate,TencentLoginDelegate>
 
 @end
 
@@ -19,12 +21,27 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[CYTabBarController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;
 }
+
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [TencentOAuth HandleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication*)app openURL:(NSURL*)url options:(NSDictionary *)options {
+    [TencentOAuth HandleOpenURL:url];
+    [QQApiInterface handleOpenURL:url delegate:(id<QQApiInterfaceDelegate>)self];
+    return YES;
+}
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -52,5 +69,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+- (void)tencentDidLogin {
+    
+}
+
+- (void)tencentDidNotLogin:(BOOL)cancelled {
+    
+}
+
+- (void)tencentDidNotNetWork {
+    
+}
 
 @end

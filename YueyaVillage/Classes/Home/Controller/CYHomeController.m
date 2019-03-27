@@ -8,6 +8,7 @@
 
 #import "CYHomeController.h"
 #import "CYAccountController.h"
+#import "CYLoginViewController.h"
 
 @interface CYHomeController ()
 
@@ -19,6 +20,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
     // Do any additional setup after loading the view.
+    
+    CYLoginViewController * loginVC = [[CYLoginViewController alloc]init];
+    [self presentViewController:loginVC animated:YES completion:nil];
     
 }
 
