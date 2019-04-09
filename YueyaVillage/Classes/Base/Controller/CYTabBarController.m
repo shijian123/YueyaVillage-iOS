@@ -8,6 +8,7 @@
 
 #import "CYTabBarController.h"
 #import "CYNavigationController.h"
+#import "CYYellowBagHomeController.h"
 #import "CYHomeController.h"
 #import "CYAccountController.h"
 
@@ -19,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.tabBar setTranslucent:NO];
     // 初始化子控制器
     [self addSubViews];
 }
@@ -33,7 +36,9 @@
     
     CYHomeController *homeVC = [[CYHomeController alloc] init];
     [self addChildVc:homeVC title:@"Home" tabBarItemTitle:@"Home" image:@"" selectedImage:@""];
-    
+    CYYellowBagHomeController *yellowBagVC = [[CYYellowBagHomeController alloc] initWithNibName:@"CYYellowBagHomeController" bundle:nil];
+    [self addChildVc:yellowBagVC title:@"YellowBag" tabBarItemTitle:@"YellowBag" image:@"" selectedImage:@""];
+
     CYAccountController *accountVC = [[CYAccountController alloc] init];
     [self addChildVc:accountVC title:@"Account" tabBarItemTitle:@"Account" image:@"" selectedImage:@""];
 }

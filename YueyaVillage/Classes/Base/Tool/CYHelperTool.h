@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CYHelperTool : NSObject
 
+/**
+ 获取当前时间的时间戳
+ */
++ (NSString *)currentdateInterval;
 
 
 @end

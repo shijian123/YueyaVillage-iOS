@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CYYellowBagHomeController">
+            <connections>
+                <outlet property="mainScrollV" destination="Kna-DG-XES" id="sTa-Mc-gjE"/>
+                <outlet property="view" destination="iN0-l3-epB" id="h9S-88-dpX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kna-DG-XES">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="sf4-Mu-jhG"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Kna-DG-XES" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2EH-A9-fkP"/>
+                <constraint firstAttribute="trailing" secondItem="Kna-DG-XES" secondAttribute="trailing" id="AGG-rX-2Gj"/>
+                <constraint firstAttribute="bottom" secondItem="Kna-DG-XES" secondAttribute="bottom" id="XDD-Zi-Qwq"/>
+                <constraint firstItem="Kna-DG-XES" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nn7-Ys-g6s"/>
+            </constraints>
+            <point key="canvasLocation" x="-0.80000000000000004" y="156.97151424287858"/>
+        </view>
+    </objects>
+</document>

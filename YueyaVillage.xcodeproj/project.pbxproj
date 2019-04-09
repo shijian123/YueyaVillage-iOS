@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1F461E6F4658A7E995FF7FA3 /* libPods-YueyaVillage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */; };
+		B446F92C2249FAB20010EBC8 /* CYReleaseYellowBagController.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F92A2249FAB20010EBC8 /* CYReleaseYellowBagController.m */; };
+		B446F92D2249FAB20010EBC8 /* CYReleaseYellowBagController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B446F92B2249FAB20010EBC8 /* CYReleaseYellowBagController.xib */; };
+		B446F9332249FC5C0010EBC8 /* UIView+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F9322249FC5B0010EBC8 /* UIView+CY.m */; };
+		B446F9372249FE070010EBC8 /* CYPhotoSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F9352249FE070010EBC8 /* CYPhotoSelectCell.m */; };
+		B446F9382249FE070010EBC8 /* CYPhotoSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B446F9362249FE070010EBC8 /* CYPhotoSelectCell.xib */; };
+		B446F93B224A00CB0010EBC8 /* CYYellowBagHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F93A224A00CB0010EBC8 /* CYYellowBagHomeController.m */; };
+		B446F93E224A01D10010EBC8 /* CYYellowBagHomeNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F93D224A01D10010EBC8 /* CYYellowBagHomeNavView.m */; };
+		B446F940224A01E20010EBC8 /* CYYellowBagHomeNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B446F93F224A01E20010EBC8 /* CYYellowBagHomeNavView.xib */; };
+		B446F943224A04730010EBC8 /* UIColor+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B446F942224A04730010EBC8 /* UIColor+CY.m */; };
+		B453EE34224A277400AD5838 /* CYYellowBagListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B453EE32224A277400AD5838 /* CYYellowBagListCell.m */; };
+		B453EE35224A277400AD5838 /* CYYellowBagListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B453EE33224A277400AD5838 /* CYYellowBagListCell.xib */; };
+		B453EE39224A2BCD00AD5838 /* CYYellowBagDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B453EE37224A2BCD00AD5838 /* CYYellowBagDetailController.m */; };
+		B453EE3A224A2BCD00AD5838 /* CYYellowBagDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B453EE38224A2BCD00AD5838 /* CYYellowBagDetailController.xib */; };
 		B458505A223CF05B0059717F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4585059223CF05B0059717F /* AppDelegate.m */; };
 		B4585060223CF05B0059717F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B458505E223CF05B0059717F /* Main.storyboard */; };
 		B4585062223CF05E0059717F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4585061223CF05E0059717F /* Assets.xcassets */; };
@@ -20,8 +33,22 @@
 		B45850A3223CF68F0059717F /* CYHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45850A2223CF68F0059717F /* CYHomeController.m */; };
 		B45850A6223CF6EF0059717F /* CYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45850A5223CF6EF0059717F /* CYNavigationController.m */; };
 		B45850AA223CF7A40059717F /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B45850A9223CF7A40059717F /* CYConst.m */; };
+		B464D3E12255DD4500D90C8F /* CYHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B464D3E02255DD4500D90C8F /* CYHttpTool.m */; };
+		B464D3E72255E3F400D90C8F /* MBProgressHUD+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B464D3E62255E3F400D90C8F /* MBProgressHUD+CY.m */; };
+		B464D3EA2255E53500D90C8F /* CYYellowBagListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B464D3E92255E53400D90C8F /* CYYellowBagListModel.m */; };
+		B464D3ED22561BC100D90C8F /* NSString+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B464D3EC22561BC100D90C8F /* NSString+CY.m */; };
+		B46B26EF224CF59A00D47E12 /* CYAccountHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B46B26EE224CF59A00D47E12 /* CYAccountHeaderView.m */; };
+		B46B26F1224CF5A700D47E12 /* CYAccountHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46B26F0224CF5A700D47E12 /* CYAccountHeaderView.xib */; };
+		B46B26F4224DB36600D47E12 /* CYYellowBagListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46B26F3224DB36600D47E12 /* CYYellowBagListController.m */; };
 		B481C280223CF9EC00D0D9F4 /* CYHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B481C27F223CF9EC00D0D9F4 /* CYHelperTool.m */; };
 		B481C286223CFE8200D0D9F4 /* CYAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = B481C285223CFE8200D0D9F4 /* CYAccountController.m */; };
+		B48F613D224A3E73002CA4ED /* CYYellowBagHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48F613C224A3E73002CA4ED /* CYYellowBagHomeController.xib */; };
+		B4977AA5225B431E00EF645B /* CYYellowBagImgsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4977AA3225B431E00EF645B /* CYYellowBagImgsCell.m */; };
+		B4977AA6225B431E00EF645B /* CYYellowBagImgsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4977AA4225B431E00EF645B /* CYYellowBagImgsCell.xib */; };
+		B4977AAA225C4E5100EF645B /* CYYellowBagListMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4977AA8225C4E5000EF645B /* CYYellowBagListMyCell.m */; };
+		B4977AAB225C4E5100EF645B /* CYYellowBagListMyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4977AA9225C4E5000EF645B /* CYYellowBagListMyCell.xib */; };
+		B4977AAE225C7BF300EF645B /* CYAccountEditNameAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4977AAD225C7BF300EF645B /* CYAccountEditNameAlertView.m */; };
+		B4977AB0225C7C1E00EF645B /* CYAccountEditNameAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4977AAF225C7C1E00EF645B /* CYAccountEditNameAlertView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +72,27 @@
 		39CFF44CD8FA4294025481E2 /* Pods-YueyaVillage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueyaVillage.release.xcconfig"; path = "Target Support Files/Pods-YueyaVillage/Pods-YueyaVillage.release.xcconfig"; sourceTree = "<group>"; };
 		51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YueyaVillage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD42230E8E2A64314B08DAD /* Pods-YueyaVillage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YueyaVillage.debug.xcconfig"; path = "Target Support Files/Pods-YueyaVillage/Pods-YueyaVillage.debug.xcconfig"; sourceTree = "<group>"; };
+		B446F9292249FAB20010EBC8 /* CYReleaseYellowBagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYReleaseYellowBagController.h; sourceTree = "<group>"; };
+		B446F92A2249FAB20010EBC8 /* CYReleaseYellowBagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYReleaseYellowBagController.m; sourceTree = "<group>"; };
+		B446F92B2249FAB20010EBC8 /* CYReleaseYellowBagController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYReleaseYellowBagController.xib; sourceTree = "<group>"; };
+		B446F9312249FC5B0010EBC8 /* UIView+CY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CY.h"; sourceTree = "<group>"; };
+		B446F9322249FC5B0010EBC8 /* UIView+CY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CY.m"; sourceTree = "<group>"; };
+		B446F9342249FE070010EBC8 /* CYPhotoSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPhotoSelectCell.h; sourceTree = "<group>"; };
+		B446F9352249FE070010EBC8 /* CYPhotoSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPhotoSelectCell.m; sourceTree = "<group>"; };
+		B446F9362249FE070010EBC8 /* CYPhotoSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYPhotoSelectCell.xib; sourceTree = "<group>"; };
+		B446F939224A00CB0010EBC8 /* CYYellowBagHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagHomeController.h; sourceTree = "<group>"; };
+		B446F93A224A00CB0010EBC8 /* CYYellowBagHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagHomeController.m; sourceTree = "<group>"; };
+		B446F93C224A01D10010EBC8 /* CYYellowBagHomeNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagHomeNavView.h; sourceTree = "<group>"; };
+		B446F93D224A01D10010EBC8 /* CYYellowBagHomeNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagHomeNavView.m; sourceTree = "<group>"; };
+		B446F93F224A01E20010EBC8 /* CYYellowBagHomeNavView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagHomeNavView.xib; sourceTree = "<group>"; };
+		B446F941224A04730010EBC8 /* UIColor+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CY.h"; sourceTree = "<group>"; };
+		B446F942224A04730010EBC8 /* UIColor+CY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CY.m"; sourceTree = "<group>"; };
+		B453EE31224A277400AD5838 /* CYYellowBagListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagListCell.h; sourceTree = "<group>"; };
+		B453EE32224A277400AD5838 /* CYYellowBagListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagListCell.m; sourceTree = "<group>"; };
+		B453EE33224A277400AD5838 /* CYYellowBagListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagListCell.xib; sourceTree = "<group>"; };
+		B453EE36224A2BCD00AD5838 /* CYYellowBagDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagDetailController.h; sourceTree = "<group>"; };
+		B453EE37224A2BCD00AD5838 /* CYYellowBagDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagDetailController.m; sourceTree = "<group>"; };
+		B453EE38224A2BCD00AD5838 /* CYYellowBagDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagDetailController.xib; sourceTree = "<group>"; };
 		B4585055223CF05B0059717F /* YueyaVillage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YueyaVillage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4585058223CF05B0059717F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4585059223CF05B0059717F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,10 +118,33 @@
 		B45850A7223CF76E0059717F /* YueyaVillage.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YueyaVillage.pch; sourceTree = "<group>"; };
 		B45850A8223CF7A40059717F /* CYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
 		B45850A9223CF7A40059717F /* CYConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
+		B464D3DF2255DD4500D90C8F /* CYHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYHttpTool.h; sourceTree = "<group>"; };
+		B464D3E02255DD4500D90C8F /* CYHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYHttpTool.m; sourceTree = "<group>"; };
+		B464D3E52255E3F400D90C8F /* MBProgressHUD+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CY.h"; sourceTree = "<group>"; };
+		B464D3E62255E3F400D90C8F /* MBProgressHUD+CY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CY.m"; sourceTree = "<group>"; };
+		B464D3E82255E53400D90C8F /* CYYellowBagListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagListModel.h; sourceTree = "<group>"; };
+		B464D3E92255E53400D90C8F /* CYYellowBagListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagListModel.m; sourceTree = "<group>"; };
+		B464D3EB22561BC100D90C8F /* NSString+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CY.h"; sourceTree = "<group>"; };
+		B464D3EC22561BC100D90C8F /* NSString+CY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CY.m"; sourceTree = "<group>"; };
+		B46B26ED224CF59A00D47E12 /* CYAccountHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAccountHeaderView.h; sourceTree = "<group>"; };
+		B46B26EE224CF59A00D47E12 /* CYAccountHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAccountHeaderView.m; sourceTree = "<group>"; };
+		B46B26F0224CF5A700D47E12 /* CYAccountHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYAccountHeaderView.xib; sourceTree = "<group>"; };
+		B46B26F2224DB36600D47E12 /* CYYellowBagListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagListController.h; sourceTree = "<group>"; };
+		B46B26F3224DB36600D47E12 /* CYYellowBagListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagListController.m; sourceTree = "<group>"; };
 		B481C27E223CF9EC00D0D9F4 /* CYHelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYHelperTool.h; sourceTree = "<group>"; };
 		B481C27F223CF9EC00D0D9F4 /* CYHelperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYHelperTool.m; sourceTree = "<group>"; };
 		B481C284223CFE8200D0D9F4 /* CYAccountController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAccountController.h; sourceTree = "<group>"; };
 		B481C285223CFE8200D0D9F4 /* CYAccountController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAccountController.m; sourceTree = "<group>"; };
+		B48F613C224A3E73002CA4ED /* CYYellowBagHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagHomeController.xib; sourceTree = "<group>"; };
+		B4977AA2225B431E00EF645B /* CYYellowBagImgsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagImgsCell.h; sourceTree = "<group>"; };
+		B4977AA3225B431E00EF645B /* CYYellowBagImgsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagImgsCell.m; sourceTree = "<group>"; };
+		B4977AA4225B431E00EF645B /* CYYellowBagImgsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagImgsCell.xib; sourceTree = "<group>"; };
+		B4977AA7225C4E5000EF645B /* CYYellowBagListMyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYYellowBagListMyCell.h; sourceTree = "<group>"; };
+		B4977AA8225C4E5000EF645B /* CYYellowBagListMyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYYellowBagListMyCell.m; sourceTree = "<group>"; };
+		B4977AA9225C4E5000EF645B /* CYYellowBagListMyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYYellowBagListMyCell.xib; sourceTree = "<group>"; };
+		B4977AAC225C7BF300EF645B /* CYAccountEditNameAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAccountEditNameAlertView.h; sourceTree = "<group>"; };
+		B4977AAD225C7BF300EF645B /* CYAccountEditNameAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAccountEditNameAlertView.m; sourceTree = "<group>"; };
+		B4977AAF225C7C1E00EF645B /* CYAccountEditNameAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYAccountEditNameAlertView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +188,65 @@
 				51BB2AC291DC77419738A3EC /* libPods-YueyaVillage.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B446F9252249FA240010EBC8 /* YellowBag */ = {
+			isa = PBXGroup;
+			children = (
+				B446F9282249FA580010EBC8 /* Controller */,
+				B446F9272249FA530010EBC8 /* Model */,
+				B446F9262249FA480010EBC8 /* View */,
+			);
+			path = YellowBag;
+			sourceTree = "<group>";
+		};
+		B446F9262249FA480010EBC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B446F9342249FE070010EBC8 /* CYPhotoSelectCell.h */,
+				B446F9352249FE070010EBC8 /* CYPhotoSelectCell.m */,
+				B446F9362249FE070010EBC8 /* CYPhotoSelectCell.xib */,
+				B446F93C224A01D10010EBC8 /* CYYellowBagHomeNavView.h */,
+				B446F93D224A01D10010EBC8 /* CYYellowBagHomeNavView.m */,
+				B446F93F224A01E20010EBC8 /* CYYellowBagHomeNavView.xib */,
+				B453EE31224A277400AD5838 /* CYYellowBagListCell.h */,
+				B453EE32224A277400AD5838 /* CYYellowBagListCell.m */,
+				B453EE33224A277400AD5838 /* CYYellowBagListCell.xib */,
+				B4977AA7225C4E5000EF645B /* CYYellowBagListMyCell.h */,
+				B4977AA8225C4E5000EF645B /* CYYellowBagListMyCell.m */,
+				B4977AA9225C4E5000EF645B /* CYYellowBagListMyCell.xib */,
+				B4977AA2225B431E00EF645B /* CYYellowBagImgsCell.h */,
+				B4977AA3225B431E00EF645B /* CYYellowBagImgsCell.m */,
+				B4977AA4225B431E00EF645B /* CYYellowBagImgsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B446F9272249FA530010EBC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B464D3E82255E53400D90C8F /* CYYellowBagListModel.h */,
+				B464D3E92255E53400D90C8F /* CYYellowBagListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B446F9282249FA580010EBC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B446F939224A00CB0010EBC8 /* CYYellowBagHomeController.h */,
+				B446F93A224A00CB0010EBC8 /* CYYellowBagHomeController.m */,
+				B48F613C224A3E73002CA4ED /* CYYellowBagHomeController.xib */,
+				B46B26F2224DB36600D47E12 /* CYYellowBagListController.h */,
+				B46B26F3224DB36600D47E12 /* CYYellowBagListController.m */,
+				B453EE36224A2BCD00AD5838 /* CYYellowBagDetailController.h */,
+				B453EE37224A2BCD00AD5838 /* CYYellowBagDetailController.m */,
+				B453EE38224A2BCD00AD5838 /* CYYellowBagDetailController.xib */,
+				B446F9292249FAB20010EBC8 /* CYReleaseYellowBagController.h */,
+				B446F92A2249FAB20010EBC8 /* CYReleaseYellowBagController.m */,
+				B446F92B2249FAB20010EBC8 /* CYReleaseYellowBagController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		B458504C223CF05B0059717F = {
@@ -172,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				B458508D223CF32F0059717F /* Base */,
+				B446F9252249FA240010EBC8 /* YellowBag */,
 				B458509A223CF5280059717F /* Account */,
 				B458508F223CF37A0059717F /* Home */,
 			);
@@ -260,6 +391,14 @@
 		B4585095223CF3D00059717F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B446F9312249FC5B0010EBC8 /* UIView+CY.h */,
+				B446F9322249FC5B0010EBC8 /* UIView+CY.m */,
+				B446F941224A04730010EBC8 /* UIColor+CY.h */,
+				B446F942224A04730010EBC8 /* UIColor+CY.m */,
+				B464D3EB22561BC100D90C8F /* NSString+CY.h */,
+				B464D3EC22561BC100D90C8F /* NSString+CY.m */,
+				B464D3E52255E3F400D90C8F /* MBProgressHUD+CY.h */,
+				B464D3E62255E3F400D90C8F /* MBProgressHUD+CY.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -269,6 +408,8 @@
 			children = (
 				B481C27E223CF9EC00D0D9F4 /* CYHelperTool.h */,
 				B481C27F223CF9EC00D0D9F4 /* CYHelperTool.m */,
+				B464D3DF2255DD4500D90C8F /* CYHttpTool.h */,
+				B464D3E02255DD4500D90C8F /* CYHttpTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -311,6 +452,12 @@
 		B481C282223CFE4E00D0D9F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B46B26ED224CF59A00D47E12 /* CYAccountHeaderView.h */,
+				B46B26EE224CF59A00D47E12 /* CYAccountHeaderView.m */,
+				B46B26F0224CF5A700D47E12 /* CYAccountHeaderView.xib */,
+				B4977AAC225C7BF300EF645B /* CYAccountEditNameAlertView.h */,
+				B4977AAD225C7BF300EF645B /* CYAccountEditNameAlertView.m */,
+				B4977AAF225C7C1E00EF645B /* CYAccountEditNameAlertView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,9 +577,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B446F92D2249FAB20010EBC8 /* CYReleaseYellowBagController.xib in Resources */,
+				B48F613D224A3E73002CA4ED /* CYYellowBagHomeController.xib in Resources */,
+				B4977AAB225C4E5100EF645B /* CYYellowBagListMyCell.xib in Resources */,
+				B446F9382249FE070010EBC8 /* CYPhotoSelectCell.xib in Resources */,
 				B4585065223CF05E0059717F /* LaunchScreen.storyboard in Resources */,
 				B4585062223CF05E0059717F /* Assets.xcassets in Resources */,
+				B446F940224A01E20010EBC8 /* CYYellowBagHomeNavView.xib in Resources */,
+				B4977AA6225B431E00EF645B /* CYYellowBagImgsCell.xib in Resources */,
+				B453EE35224A277400AD5838 /* CYYellowBagListCell.xib in Resources */,
+				B46B26F1224CF5A700D47E12 /* CYAccountHeaderView.xib in Resources */,
 				B4585060223CF05B0059717F /* Main.storyboard in Resources */,
+				B453EE3A224A2BCD00AD5838 /* CYYellowBagDetailController.xib in Resources */,
+				B4977AB0225C7C1E00EF645B /* CYAccountEditNameAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,13 +641,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YueyaVillage/Pods-YueyaVillage-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,14 +665,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B464D3EA2255E53500D90C8F /* CYYellowBagListModel.m in Sources */,
+				B446F9332249FC5C0010EBC8 /* UIView+CY.m in Sources */,
+				B464D3E12255DD4500D90C8F /* CYHttpTool.m in Sources */,
 				B481C286223CFE8200D0D9F4 /* CYAccountController.m in Sources */,
 				B45850A3223CF68F0059717F /* CYHomeController.m in Sources */,
 				B4585068223CF05E0059717F /* main.m in Sources */,
+				B446F9372249FE070010EBC8 /* CYPhotoSelectCell.m in Sources */,
+				B46B26EF224CF59A00D47E12 /* CYAccountHeaderView.m in Sources */,
 				B458509D223CF5D30059717F /* CYBaseController.m in Sources */,
+				B446F93B224A00CB0010EBC8 /* CYYellowBagHomeController.m in Sources */,
+				B4977AA5225B431E00EF645B /* CYYellowBagImgsCell.m in Sources */,
 				B481C280223CF9EC00D0D9F4 /* CYHelperTool.m in Sources */,
+				B464D3ED22561BC100D90C8F /* NSString+CY.m in Sources */,
 				B458505A223CF05B0059717F /* AppDelegate.m in Sources */,
+				B4977AAE225C7BF300EF645B /* CYAccountEditNameAlertView.m in Sources */,
+				B464D3E72255E3F400D90C8F /* MBProgressHUD+CY.m in Sources */,
+				B46B26F4224DB36600D47E12 /* CYYellowBagListController.m in Sources */,
+				B453EE39224A2BCD00AD5838 /* CYYellowBagDetailController.m in Sources */,
+				B446F92C2249FAB20010EBC8 /* CYReleaseYellowBagController.m in Sources */,
+				B453EE34224A277400AD5838 /* CYYellowBagListCell.m in Sources */,
 				B45850A0223CF6150059717F /* CYTabBarController.m in Sources */,
+				B446F943224A04730010EBC8 /* UIColor+CY.m in Sources */,
 				B45850AA223CF7A40059717F /* CYConst.m in Sources */,
+				B446F93E224A01D10010EBC8 /* CYYellowBagHomeNavView.m in Sources */,
+				B4977AAA225C4E5100EF645B /* CYYellowBagListMyCell.m in Sources */,
 				B45850A6223CF6EF0059717F /* CYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,7 +866,7 @@
 				DEVELOPMENT_TEAM = 986H8EK8V9;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueyaVillage/Supporting Files/YueyaVillage.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YueyaVillage/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,7 +886,7 @@
 				DEVELOPMENT_TEAM = 986H8EK8V9;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YueyaVillage/Supporting Files/YueyaVillage.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YueyaVillage/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
